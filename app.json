@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "cleanApp",
+    "slug": "cleanApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "splash": {
+      "image": "./assets/splash1.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDA_3MHuirtR5AqwEOC6fb7Tj828m59IrY"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon1.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "www.clean.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    }
+  }
+}
