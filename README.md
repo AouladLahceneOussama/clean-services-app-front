@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/Logo.png" width="120" height="100" />
+  <img src="/assets/Logo.png" width="140" height="100" />
 </p>
 
 # clean-services-app-front
